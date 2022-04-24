@@ -1,0 +1,38 @@
+
+#normal{
+	position:fixed;
+	display:block;
+	padding:10px 15px;
+	background-color:#219c90;
+	bottom:20px;
+	color:#fff;
+	font-size:1.2em;
+
+	font-family:Raleway;
+	z-index:3;
+	cursor:pointer;
+	box-shadow:1px 1px 5px 0px #219c90;
+}#normal:hover{
+	box-shadow:1px 1px 5px 0px #219c90 inset;
+}#bold:hover{
+	box-shadow:1px 1px 5px 0px #0ab3a3 inset;
+}#bold{
+	position:fixed;
+	display:block;
+	padding:10px 15px;
+	background-color:#219c90;
+	bottom:20px;
+	margin-left:50px;
+	color:#fff;
+	font-size:1.2em;
+	font-weight:bold;
+	font-family:Raleway;
+	z-index:3;
+	cursor:pointer;
+	box-shadow:2px 2px 5px 0px #219c90;
+}#gotop{
+	position:fixed;
+	bottom:20px;
+	z-index:10;
+	margin-left:1233px;
+}
